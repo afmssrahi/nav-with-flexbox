@@ -43,22 +43,22 @@ nav > ul > li > a:hover {
     color: #fdfdfd;
 }
 
-nav > ul > li:hover .dropdwon-menu {
+nav > ul > li:hover .dropdown-menu {
     display: block;
 }
 
-.dropdwon-menu {
+.dropdown-menu {
     margin-left: 30px;
     display: none;
     position: absolute;
 }
 
-.dropdwon-menu li {
+.dropdown-menu li {
     list-style: none;
     background-color: grey;
 }
 
-.dropdwon-menu li a {
+.dropdown-menu li a {
     display: inline-block;
     text-decoration: none;
     color: honeydew;
@@ -67,7 +67,7 @@ nav > ul > li:hover .dropdwon-menu {
     transition: 0.3s;
 }
 
-.dropdwon-menu li a:hover {
+.dropdown-menu li a:hover {
     color: #0a5c0e;
     background-color: grey;
 }
