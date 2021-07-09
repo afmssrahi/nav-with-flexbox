@@ -35,7 +35,7 @@ nav > ul > li > a {
     text-decoration: none;
     color: #0a5c0e;
     font-weight: 700;
-    transition: 0.4s;
+    transition: 0.3s;
 }
 
 nav > ul > li > a:hover {
@@ -64,9 +64,14 @@ nav > ul > li:hover .dropdwon-menu {
     color: honeydew;
     padding: 20px 50px;
     background-color: #6f7367;
+    transition: 0.3s;
 }
 
 .dropdwon-menu li a:hover {
     color: #0a5c0e;
     background-color: grey;
+}
+
+.mega-menu-col {
+    display: flex;
 }
