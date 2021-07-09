@@ -74,4 +74,5 @@ nav > ul > li:hover .dropdwon-menu {
 
 .mega-menu {
     display: flex;
+    background-color: #6f7367;
 }
